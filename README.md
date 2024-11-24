@@ -1,3 +1,14 @@
+Day 9: 🧑‍💻 Working with Forms
+
+Forms in React are a bit different. Try this controlled component form:  
+jsx  
+const [input, setInput] = useState('');  
+<input value={input} onChange={(e) => setInput(e.target.value)} />  
+
+How are you handling forms in your app? #ReactJS #React30Challenge"
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
